@@ -1,0 +1,7 @@
+
+torch
+transformers
+pdf2image
+pillow
+PyMuPDF
+pdfplumber
