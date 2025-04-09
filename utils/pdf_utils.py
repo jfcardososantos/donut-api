@@ -34,7 +34,7 @@ def convert_pdf_to_image_base64(pdf_path: str) -> list[str]:
 
 def send_to_ollama_node(text: str) -> dict:
     payload = {
-        "model": "gemma:4b",
+        "model": "gemma3:4b",
         "prompt": "Extraia os seguintes dados do contracheque: nome completo, matrícula, mês/ano de referência, e uma lista com código, descrição, percentual/duração e valor de cada vantagem. Formate a resposta em JSON.",
         "input": text,
         "stream": False
